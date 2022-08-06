@@ -3,32 +3,39 @@ type: profile
 description: 'habeuk profile installation'
 core_version_requirement: '^9'
 
+# Ces modules ne peuvent etre desinstaller par l'utilisateur
 dependencies:
-  - standard
+  - help
+  - search
+  - paragraphs
+  - pathauto
+  - shortcut
+  - formatage_models
+  - generate_style_theme
+  
   
 distribution:
   name: 'Habeuk profile Standart'
   langcode: fr
-  
+
+# Ces modules peuvent etre desinstaller par l'utilisateur.  
 install:
   - admin_toolbar_tools
   - geolocation
   - field_formatter_class
   - paragraph_view_mode
-  - paragraphs
   - smtp
   - twig_vardumper
-  - formatage_models
   - hot_models
   - spaker_mod
   - clothingslayouts
   - commerceformatage
   - fullswiperoptions
-  - generate_style_theme
   - layoutscommerce
   - login_rx_vuejs
   - owlcarousel
   
 themes:
+  - claro
   - wb_universe
   - theme_reference_wbu

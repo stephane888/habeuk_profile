@@ -24,5 +24,7 @@ function habeuk_profile_install() {
    */
   $configFactory = \Drupal::service('config.factory');
   $editConfig = $configFactory->getEditable('system.theme');
-  $editConfig->set('default', 'theme_reference_wbu')->save();
+  $editConfig->set('default', 'theme_reference_wbu');
+  $editConfig->set('admin', 'claro');
+  $editConfig->save();
 }
