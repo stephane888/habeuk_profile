@@ -1,9 +1,34 @@
 name: habeuk_profile
 type: profile
 description: 'habeuk profile installation'
-core: 8.x
+core_version_requirement: '^9'
 
 dependencies:
-  - 'admin_toolbar'
-  - 'pathauto'
-  - 'devel_entity_updates'
+  - standard
+  
+distribution:
+  name: 'Habeuk profile Standart'
+  langcode: fr
+  
+install:
+  - admin_toolbar_tools
+  - geolocation
+  - field_formatter_class
+  - paragraph_view_mode
+  - paragraphs
+  - smtp
+  - twig_vardumper
+  - formatage_models
+  - hot_models
+  - spaker_mod
+  - clothingslayouts
+  - commerceformatage
+  - fullswiperoptions
+  - generate_style_theme
+  - layoutscommerce
+  - login_rx_vuejs
+  - owlcarousel
+  
+themes:
+  - wb_universe
+  - theme_reference_wbu

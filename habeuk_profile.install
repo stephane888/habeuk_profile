@@ -17,5 +17,12 @@ function habeuk_profile_install() {
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
 
-  // Add code here to make nodes, terms, etc.
+  /**
+   * On definie theme_reference_wbu comme theme par defaut.
+   * 
+   * @var \Drupal\Core\Config\ConfigFactoryInterface $configFactory
+   */
+  $configFactory = \Drupal::service('config.factory');
+  $editConfig = $configFactory->getEditable('system.theme');
+  $editConfig->set('default', 'theme_reference_wbu')->save();
 }
