@@ -23,6 +23,8 @@ dependencies:
   - shortcut
   - formatage_models
   - generate_style_theme
+  - dynamic_page_cache
+  - page_cache
   
   
 distribution:
@@ -31,6 +33,14 @@ distribution:
 
 # Ces modules peuvent etre desinstaller par l'utilisateur.  
 install:
+  - statistics
+  - history
+  - automated_cron
+  - big_pipe
+  - config
+  - dblog
+  - mysql
+  - quickedit
   - admin_toolbar_tools
   - geolocation
   - field_formatter_class
