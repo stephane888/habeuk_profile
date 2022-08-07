@@ -7,6 +7,17 @@ core_version_requirement: '^9'
 dependencies:
   - help
   - search
+  - ckeditor
+  - comment
+  - contact
+  - node
+  - block_content
+  - editor
+  - menu_link_content
+  - menu_ui
+  - taxonomy
+  - tour
+  - rdf
   - paragraphs
   - pathauto
   - shortcut
