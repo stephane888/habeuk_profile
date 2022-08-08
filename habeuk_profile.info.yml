@@ -49,9 +49,7 @@ install:
   - hot_models
   - spaker_mod
   - clothingslayouts
-  - commerceformatage
   - fullswiperoptions
-  - layoutscommerce
   - login_rx_vuejs
   - owlcarousel
 
