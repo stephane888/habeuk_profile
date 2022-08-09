@@ -5,26 +5,10 @@ core_version_requirement: "^9"
 
 # Ces modules ne peuvent etre desinstaller par l'utilisateur
 dependencies:
-  - help
-  - search
-  - ckeditor
-  - comment
-  - contact
-  - node
-  - block_content
-  - editor
-  - menu_link_content
-  - menu_ui
-  - taxonomy
-  - tour
-  - rdf
   - paragraphs
   - pathauto
-  - shortcut
   - formatage_models
   - generate_style_theme
-  - dynamic_page_cache
-  - page_cache
 
 distribution:
   name: "Habeuk profile Standart"
@@ -32,13 +16,42 @@ distribution:
 
 # Ces modules peuvent etre desinstaller par l'utilisateur.
 install:
-  - statistics
+#standard module
+  - node
   - history
-  - automated_cron
-  - big_pipe
+  - block
+  - breakpoint
+  - ckeditor
   - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
   - dblog
-  - mysql
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+#custom
+  - statistics
   - quickedit
   - admin_toolbar_tools
   - geolocation
