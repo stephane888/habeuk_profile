@@ -1,0 +1,4 @@
+/vendor/
+/config/
+/web/
+composer.lock

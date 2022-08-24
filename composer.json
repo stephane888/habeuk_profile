@@ -9,6 +9,12 @@
             "email": "kksasteph888@gmail.com"
         }
     ],
+    "repositories": [
+	    {
+	      "type": "composer",
+	      "url": "https://packages.drupal.org/8"
+	    }
+    ],
     "minimum-stability": "dev",
     "require": {
     	"drupal/admin_toolbar": "^3.0",
@@ -29,6 +35,7 @@
         "stephane888/login_rx_vuejs": "dev-1x",
         "stephane888/owlcarousel": "dev-1x",
         "stephane888/theme_reference_wbu": "dev-1x",
-        "stephane888/wb_universe": "dev-3x"
+        "stephane888/wb_universe": "dev-3x",
+        "cweagans/composer-patches": "dev-master"
     }
 }
