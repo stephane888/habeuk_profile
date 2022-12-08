@@ -27,7 +27,7 @@
         "drupal/smtp": "^1.0",
         "drupal/twig_vardumper": "^3.0",
         "noumecha/hot_models": "dev-1x",
-        "noumecha/spaker_mod": "dev-1x",
+        "noumecha/spaker_mod": "dev-2x",
         "stephane888/clothingslayouts": "dev-1x",
         "stephane888/formatage_models": "dev-3x",
         "stephane888/fullswiperoptions": "dev-1x",
