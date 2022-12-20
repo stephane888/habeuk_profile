@@ -22,7 +22,6 @@
     	"drupal/geolocation": "^3.10",
     	"drupal/field_formatter_class": "^1.5",
     	"drupal/field_formatter_class": "^1.5",
-    	"drupal/paragraph_view_mode": "^2.0",
         "drupal/paragraphs": "^1.14",
         "drupal/smtp": "^1.0",
         "drupal/twig_vardumper": "^3.0",

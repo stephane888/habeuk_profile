@@ -16,7 +16,7 @@ distribution:
 
 # Ces modules peuvent etre desinstaller par l'utilisateur.
 install:
-#standard module
+  #standard module
   - node
   - history
   - block
@@ -50,13 +50,12 @@ install:
   - views_ui
   - tour
   - automated_cron
-#custom
+  #custom
   - statistics
   - quickedit
   - admin_toolbar_tools
   - geolocation
   - field_formatter_class
-  - paragraph_view_mode
   - smtp
   - twig_vardumper
   - hot_models
