@@ -65,6 +65,8 @@ install:
   - fullswiperoptions
   - login_rx_vuejs
   - owlcarousel
+  - filesmanager
+  - apivuejs
 
 themes:
   - claro
