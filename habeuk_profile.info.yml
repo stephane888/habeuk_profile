@@ -15,7 +15,7 @@ dependencies:
 
 distribution:
   name: "Habeuk profile Standart"
-  langcode: fr
+#  langcode: fr # l'utilisateur doit pouvoir selectionner la langue.
 
 # Ces modules peuvent etre desinstaller par l'utilisateur.
 install:
