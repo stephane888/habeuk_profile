@@ -9,6 +9,9 @@ dependencies:
   - pathauto
   - formatage_models
   - generate_style_theme
+  - more_fields
+  - apivuejs
+  - filesmanager
 
 distribution:
   name: "Habeuk profile Standart"
