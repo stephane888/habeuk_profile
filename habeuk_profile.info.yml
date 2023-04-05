@@ -9,10 +9,12 @@ dependencies:
   - pathauto
   - formatage_models
   - generate_style_theme
+  - apivuejs
+  - filesmanager
 
 distribution:
   name: "Habeuk profile Standart"
-  langcode: fr
+#  langcode: fr # car l'utilisateur doit pouvoir selectionner sa langue.
 
 # Ces modules peuvent etre desinstaller par l'utilisateur.
 install:
@@ -65,8 +67,7 @@ install:
   - fullswiperoptions
   - login_rx_vuejs
   - owlcarousel
-  - filesmanager
-  - apivuejs
+  
 
 themes:
   - claro
