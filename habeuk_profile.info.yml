@@ -14,7 +14,7 @@ dependencies:
   - filesmanager
 
 distribution:
-  name: "Habeuk template by habeuk.com"
+  name: "HABEUK template by habeuk.com"
 #  langcode: fr # l'utilisateur doit pouvoir selectionner la langue.
 
 # Ces modules peuvent etre desinstaller par l'utilisateur.
