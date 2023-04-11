@@ -39,6 +39,7 @@
         "cweagans/composer-patches": "^1.7",
         "stephane888/more_fields": "dev-1x",
         "stephane888/apivuejs": "dev-1x",
-        "stephane888/filesmanager": "^1.0"
+        "stephane888/filesmanager": "^1.0",
+        "drupal/transliterate_filenames": "^2.0"
     }
 }
