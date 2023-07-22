@@ -61,7 +61,6 @@ install:
   - admin_toolbar_tools
   - geolocation
   - field_formatter_class
-  - smtp
   - twig_vardumper
   - hot_models
   - spaker_mod
